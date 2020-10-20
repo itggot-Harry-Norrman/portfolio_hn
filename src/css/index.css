@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Neueimport;
+  src: url("./NeueT.otf");
+}
+/* find way to import google fonts, need major mono display*/
+html {
+
+}
+body {
+  width: 100vw;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Neueimport', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('../img/bg2.png');
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

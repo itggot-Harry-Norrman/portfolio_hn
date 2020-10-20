@@ -1,0 +1,52 @@
+
+footer {
+    width: 100vw;
+    height: 30vh;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    background-color: rgb(71, 71, 71);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vw;
+}
+.personal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22vw;
+    justify-content: space-around;
+}
+.names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 22vw;
+}
+textarea {
+    background-color: rgba(0, 0, 0, 1);
+    border: solid 2px rgba(14,200,246,0.3);
+    font-size: 1.2em;
+    color: white;
+    outline: none;
+}
+input {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 2px;
+    font-size: 1.2em;
+    border: solid 2px rgba(14,200,246,0.3);
+    color: white;
+    transition: 0.3s;
+    width: 10vw;
+}
+input:focus {
+    outline: none;
+    border: solid 2px rgba(14,200,246,0.7);
+}

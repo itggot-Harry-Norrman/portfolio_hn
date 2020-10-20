@@ -1,0 +1,46 @@
+header {
+    width: 100vw;
+    height: 15vh;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.logo {
+    height: 15vh;
+}
+.header-inf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+}
+.headerObj {
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.headerObj:hover {
+    color: #0ec8f6;
+}
+.line {
+    background-color: white;
+    height: 2px;
+    width: 5px;
+    transition: 0.5s;
+}
+.headerObj:hover .line  {
+    background-color: #0ec8f6;
+    width: 5vw;
+}
