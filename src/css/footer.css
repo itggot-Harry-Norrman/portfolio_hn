@@ -3,7 +3,10 @@ footer {
     width: 100vw;
     height: 30vh;
     /*background-color: rgba(0, 0, 0, 0.3);*/
-    background-color: rgb(71, 71, 71);
+    background-color: #323232;
+    background-attachment: fixed left;
+    background-repeat: no-repeat;
+    background-size: 40vh;
     padding: 0;
     margin: 0;
     display: flex;
@@ -20,18 +23,23 @@ form {
 .personal {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 22vw;
+    align-items: flex-start;
     justify-content: space-around;
+    padding: 4px;
+    width: 20vw;
+}
+.personal h2 {
+    color: #0ec8f6;
+    line-height: 0;
 }
 .names {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 22vw;
+    width: 20vw;
 }
 textarea {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.5);
     border: solid 2px rgba(14,200,246,0.3);
     font-size: 1.2em;
     color: white;
@@ -39,14 +47,26 @@ textarea {
 }
 input {
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 2px;
-    font-size: 1.2em;
+    padding: 4px;
+    font-size: 1.1em;
     border: solid 2px rgba(14,200,246,0.3);
     color: white;
     transition: 0.3s;
-    width: 10vw;
+    margin-right: 5px;
 }
 input:focus {
     outline: none;
     border: solid 2px rgba(14,200,246,0.7);
+}
+.name {
+    width: 50%
+}
+.mail {
+    width: 95%;
+}
+.submit {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }

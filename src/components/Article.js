@@ -1,10 +1,11 @@
 import React from 'react';
+import '../css/article.css';
 
 function Article() {
     return(
-        <div>
-            
-        </div>
+        <article>
+
+        </article>
     );
 }
 

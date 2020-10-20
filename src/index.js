@@ -5,6 +5,7 @@ import App from './App';
 import Header from './components/Header';
 import Article from './components/Article';
 import Footer from './components/Footer';
+import Parallax from './components/Parallax'
 
 import * as serviceWorker from './serviceWorker';
 
@@ -12,8 +13,9 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <React.StrictMode>
     <Header/>
-    <App />
+    <App/>
     <Article/>
+    <Parallax/>
     <Footer/>
   </React.StrictMode>,
   document.getElementById('root')

@@ -7,12 +7,13 @@ function Footer() {
             <form action="" method="post">
                 <textarea name="" id="" cols="30" rows="10"></textarea>
                 <div className="personal">
+                    <h2>Contact</h2>
                     <div className="names">
-                        <input type="text" name="" id="" placeholder="First Name"/>
-                        <input type="text" name="" id="" placeholder="Last Name"/>
+                        <input type="text" className="name" name="" id="" placeholder="First Name"/>
+                        <input type="text" className="name" name="" id="" placeholder="Last Name"/>
                     </div>
-                    <input type="text" placeholder="E-mail"/>
-                    <input type="submit" value="Send"/>
+                    <input type="text" className="mail" placeholder="E-mail"/>
+                    <input type="submit" className="submit" value="Send"/>
                 </div>
             </form>
         </footer>
